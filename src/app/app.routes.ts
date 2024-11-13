@@ -5,7 +5,7 @@ import { ShopComponent } from './shop/shop.component';
 
 export const routes: Routes = [
     {
-        path: 'home',
+        path: '',
         component:HomeComponent,
         title:'home'
     },
