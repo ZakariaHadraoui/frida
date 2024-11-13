@@ -4,11 +4,12 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { Component1Component } from './component1/component1.component';
 import { HomeComponent } from './home/home.component';
+import { ShopComponent } from './shop/shop.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,NavbarComponent,SidebarComponent,Component1Component ,HomeComponent ],
+  imports: [RouterOutlet,NavbarComponent,SidebarComponent,Component1Component ,HomeComponent ,ShopComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
