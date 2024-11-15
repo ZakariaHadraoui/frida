@@ -1,14 +1,16 @@
-<router-outlet  />
 
-<!-- <div class="preloader"></div> -->
-<!-- <div>
-	<div class="mt-0">
-		<app-home></app-home>
-	</div>
-</div> -->
-    
 <div class="main-wrapper">
-	<app-navbar></app-navbar>
+    <app-navbar></app-navbar>
+    
+    <!-- Zone où les composants de la route vont s'afficher -->
+    <router-outlet></router-outlet>
+    
+    <!-- Pied de page de l'application -->
+    <div class="app-footer border-0 shadow-lg bg-primary">
+        <a routerLink="" class="nav-content-bttn nav-center"><i class="feather-home"></i></a>
+        <a href="default-video.html" class="nav-content-bttn"><i class="feather-package"></i></a>
+        <a href="default-live-stream.html" class="nav-content-bttn" data-tab="chats"><i class="feather-layout"></i></a>            
+        <a routerLink="shop" class="nav-content-bttn"><i class="feather-layers"></i></a>
+        <a routerLink="settings" class="p-0 ms-3 menu-icon"><img src="/assets/images/profile-4.png" alt="user" class="w40 mt--1"></a>
+    </div>
 </div>
-
-
